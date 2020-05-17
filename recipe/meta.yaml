@@ -1,5 +1,5 @@
 {% set name = "meinheld" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 447de7189e4dc9c1f425aa1b9c8210aab492fda4d86f73a24059264e7d8b0134
+  sha256: 008c76937ac2117cc69e032dc69cea9f85fc605de9bac1417f447c41c16a56d6
 
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:

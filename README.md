@@ -3,7 +3,7 @@ About meinheld-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/meinheld-feedstock/blob/main/LICENSE.txt)
 
-Home: https://meinheld.org/
+Home: https://github.com/mopemope/meinheld
 
 Package license: BSD-3-Clause
 

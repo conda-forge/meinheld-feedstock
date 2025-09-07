@@ -40,7 +40,7 @@ about:
   summary: High performance asynchronous Python WSGI Web Server
   license: BSD-3-Clause
   license_file: LICENSE
-  homepage: https://meinheld.org/
+  homepage: https://github.com/mopemope/meinheld
   repository: https://github.com/mopemope/meinheld
 
 extra:
